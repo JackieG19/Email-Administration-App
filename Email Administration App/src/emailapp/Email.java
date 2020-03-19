@@ -20,6 +20,10 @@ public class Email {
 		// Call a method that returns a random password
 		this.password = randomPassword(defaultPasswordLength);
 		System.out.println("Your password is: " + this.password);
+		
+		// Combine elements to generate email
+		email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companyName;
+		System.out.println("Your email is: " + email);
 	}
 	
 	// Ask for the department 
