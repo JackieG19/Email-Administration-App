@@ -31,6 +31,7 @@ public class Email {
 		email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companyName;
 		//System.out.println("Your email is: " + email);
 	}
+  
 	// Ask for the department 
 	private String setDepartment() {
 		//System.out.print("Enter the department\n1 for Sales\n2 for Development\n3 for Accounting\n0 for none");
